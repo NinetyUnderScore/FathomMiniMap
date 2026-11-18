@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ------------------------------------------------------------ PyInstaller ----
+# build_exe.py writes the bundle and spec here.
+build/
+dist/
+*.spec
+
+# ------------------------------------------------------- Runtime app data ----
+# Saved waypoints are per-user and written next to the script / .exe the first
+# time a waypoint is saved or deleted. Do not commit them.
+waypoints.json
+
+# run.py --test writes these next to the screenshots it reads.
+debug_*.png
+
+# -------------------------------------------------------------------- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# -------------------------------------------------------------------- OS -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------- Env / logs / misc ---
+.env
+.env.*
+*.log
+
+# Local OCR tuning screenshots; not part of the source.
+ReferenceImages/
